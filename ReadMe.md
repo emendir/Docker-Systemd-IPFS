@@ -23,7 +23,7 @@ docker run -it --privileged emendir/systemd-ipfs
 
 Get your docker container's IPFS peer ID:
 ```sh
-docker exec MY_IPFS_CONTAINER echo $(ipfs id -f="<id>")
+echo $(docker exec MY_IPFS_CONTAINER ipfs id -f="<id>")
 ```
 
 Check IPFS systemd service status:
