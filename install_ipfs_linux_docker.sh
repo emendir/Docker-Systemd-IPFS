@@ -45,10 +45,6 @@ rm $ZIP_NAME
 echo "ipfs init
 ipfs config --json Experimental.Libp2pStreamMounting true
 ipfs config --json Mounts.FuseAllowOther true
-
-# TESTING ROUTER MERCY
-ipfs config --json Swarm.Transports.Network.TCP false
-ipfs config --json Swarm.Transports.Network.Websocket false
 " | tee /opt/init_ipfs.sh
 chmod +x /opt/init_ipfs.sh
 
