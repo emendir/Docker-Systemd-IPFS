@@ -45,8 +45,6 @@ Also, the following configurations are applied:
 ```
 Experimental.Libp2pStreamMounting true
 Mounts.FuseAllowOther true
-Swarm.Transports.Network.TCP false
-Swarm.Transports.Network.Websocket false
 ```
 
 These options and configurations are defined in the [install_ipfs_linux_docker.sh](install_ipfs_linux_docker.sh) file.
