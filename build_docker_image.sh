@@ -1,3 +1,5 @@
+#!/bin/bash
+
 docker build -t emendir/systemd-ipfs .
 
 ## Run with:
